@@ -1,12 +1,15 @@
-# Xkeys - Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage.
-# Type : Passive Scanner
 # By: Verry Darmawan (github.com/vsec7)
 # Twitter: https://twitter.com/verry__d
-
-# Code Credits:
-# PortSwigger example-scanner-checks: https://github.com/PortSwigger/example-scanner-checks
-# Redhunlabs Asset_Discover: https://github.com/redhuntlabs/BurpSuite-Asset_Discover
-
+!usr/bin/nettacker.py 
+network.py 
+import inj.srvc//thread(s)/m.dvc--detect(SCADA)\restricted_area_router_http://www.server.com/login/0auth/index
+...
+para_sys32 \cam \Fire-WALL \utm \webMail \vpn \rdp \ssh \ftp \telxSrvc \burp-suite \m.dvc \juniper \Cisco \Switch$
+...$
+.assets/discover && xxx.com/srvc/anal.srvc --brute --test --vuln --scan --http --crawl --fuzz IT
+...
+gather&&html.json -csv.txt #i/o$^C
+from https://localhost:5000 or "https://nettacker-api.z3r0d4y.com:5000/..."
 from burp import IBurpExtender
 from burp import IScannerCheck
 from burp import IScanIssue
@@ -372,3 +375,4 @@ class ScanIssue(IScanIssue):
 
     def getConfidence(self):
         return "Certain"
+# eof
